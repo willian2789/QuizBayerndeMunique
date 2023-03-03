@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF0000"
+    tools:context=".Questao2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jogador:"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anonimo"
+            android:id="@+id/textViewNomeQ2"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:text="Quantas Bundesligas o Bayern venceu?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="251dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/bdc"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/radioButton27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="27" />
+
+        <RadioButton
+            android:id="@+id/radioButton15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9" />
+    </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonResponderQ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Responder" />
+
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E80000"
+    android:orientation="vertical"
+    tools:context=".Questao4Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jogador:"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anonimo"
+            android:id="@+id/textViewNomeQ4"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Quais desses 4 times venceram a copa da Alemanha?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/final29"/>
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkBoxBayern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bayern De Munique" />
+
+    <CheckBox
+        android:id="@+id/checkSchalke04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schalke04" />
+
+    <CheckBox
+        android:id="@+id/checkBoxRapidWien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rapid Wien" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVFBLeipzig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VFB Leipzig" />
+
+    <Button
+        android:id="@+id/buttonResponderQ4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Responder" />
+</LinearLayout>
